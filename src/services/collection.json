@@ -1,0 +1,340 @@
+{
+  "collection": [
+    {
+      "title": "Balloon Kid",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Kid Icarus",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Astérix & Obelix",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Bomber man : Pocket",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Donkey Kong Land 3",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Donkey Kong Land 2",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Donkey Kong Land",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Donkey Kong",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Draculo",
+      "platform": "GB",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Dragon Quest Monsters Terry",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "JAP"
+    },
+    {
+      "title": "Dropzone",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Duck Tales 2",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Duck Tales",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "F-1 Race",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "F-1 World Grand Prix",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Tetris",
+      "platform": "GB",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Tintin au Tibet",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Tom Chaney’s Rainbow six",
+      "platform": "GBC",
+      "bootleg": true,
+      "region": "EUR"
+    },
+    {
+      "title": "Wario Blast",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Qix",
+      "platform": "GB",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "GB USB: Smart card 64M",
+      "platform": "custome",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Chase H.Q.",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Bugs Bunny: Crazy Castle 3",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Super 150 in 1",
+      "platform": "GB",
+      "bootleg": true,
+      "region": "EUR"
+    },
+    {
+      "title": "Perfect 11 in 1",
+      "platform": "GB",
+      "bootleg": true,
+      "region": "EUR"
+    },
+    {
+      "title": "66 in 1",
+      "platform": "GB",
+      "bootleg": true,
+      "region": "EUR"
+    },
+    {
+      "title": "Harry Potter: Philosopher’s stone",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Kirby’s Dream Land",
+      "platform": "GB",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Kirby’s Dream Land 2",
+      "platform": "GB",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Lego Racers",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Joe Mac: Caveman Ninja",
+      "platform": "GB",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Mega Man: Dr. Wily’s Rache",
+      "platform": "GB",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Mega Man 2",
+      "platform": "GB",
+      "bootleg": true,
+      "region": "EUR"
+    },
+    {
+      "title": "Mole Mania (Mogurānya)",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "JAP"
+    },
+    {
+      "title": "Monster Max",
+      "platform": "GB",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Ms Pac-Man",
+      "platform": "GB",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Oddworld Adventures",
+      "platform": "GB",
+      "bootleg": true,
+      "region": "EUR"
+    },
+    {
+      "title": "Pokémon Gold",
+      "platform": "GB",
+      "bootleg": true,
+      "region": "EUR"
+    },
+    {
+      "title": "Pong",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Quest for Camelot",
+      "platform": "GB",
+      "bootleg": true,
+      "region": "EUR"
+    },
+    {
+      "title": "Spider Man X-men",
+      "platform": "GB",
+      "bootleg": true,
+      "region": "EUR"
+    },
+    {
+      "title": "Spirou: The robot invasion",
+      "platform": "GB",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Super Mario Land",
+      "platform": "GB",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Super Mario Land 2: 6 golden Coins",
+      "platform": "GB",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Super Mario Land 3: Wario land",
+      "platform": "GB",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Wave Race",
+      "platform": "GB",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Doom",
+      "platform": "GBA",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Duke Nukem",
+      "platform": "GBA",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Golden Sun: the lost age",
+      "platform": "GBA",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Maze of Fate (bootleg?)",
+      "platform": "GBA",
+      "bootleg": true,
+      "region": "EUR"
+    },
+    {
+      "title": "Rhythm Tengoku",
+      "platform": "GBA",
+      "bootleg": false,
+      "region": "JAP"
+    },
+    {
+      "title": "Super Mario Advance 3: Yoshi’s Island",
+      "platform": "GBA",
+      "bootleg": true,
+      "region": "USA"
+    },
+    {
+      "title": "Super Mario Advance 4: Super Mario Bros 3",
+      "platform": "GBA",
+      "bootleg": true,
+      "region": "USA"
+    },
+    {
+      "title": "Super Mario Bros",
+      "platform": "GBA",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Street Fighter",
+      "platform": "GB",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Wario Land 2",
+      "platform": "GB",
+      "bootleg": false,
+      "region": "EUR"
+    }
+  ]
+}
