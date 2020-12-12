@@ -1,6 +1,36 @@
 {
   "collection": [
     {
+      "title": "Lemony Snicket's A Series of Unfortunate Events",
+      "platform": "GBA",
+      "bootleg": false,
+      "region": "UKV"
+    },
+    {
+      "title": "Lucky Luke: Wanted!",
+      "platform": "GBA",
+      "bootleg": false,
+      "region": "NOE"
+    },
+    {
+      "title": "The Incredibles: Rise of the underminer",
+      "platform": "GBA",
+      "bootleg": false,
+      "region": "NOE"
+    },
+    {
+      "title": "An American Tail: Fievel's Gold Rush",
+      "platform": "GBA",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Fortified Zone",
+      "platform": "GB",
+      "bootleg": false,
+      "region": "SCN"
+    },
+    {
       "title": "Balloon Kid",
       "platform": "GBC",
       "bootleg": false,
@@ -319,13 +349,37 @@
       "region": "USA"
     },
     {
+      "title": "Super Mario World: Super Mario Advance 2",
+      "platform": "GBA",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
       "title": "Super Mario Bros",
       "platform": "GBA",
       "bootleg": false,
       "region": "EUR"
     },
     {
-      "title": "Street Fighter",
+      "title": "Gex",
+      "platform": "GB",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Perfect Dark",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Street Fighter II",
+      "platform": "GB",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Star Wars",
       "platform": "GB",
       "bootleg": false,
       "region": "EUR"
