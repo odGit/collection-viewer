@@ -1,5 +1,7 @@
 # collector
 
+Preview of application is available at https://odgit.github.io/collection-viewer/
+
 ## Project setup
 ```
 yarn install
