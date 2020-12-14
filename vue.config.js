@@ -1,3 +1,4 @@
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production' ? 'collection-viewer' : '/'
+  publicPath: process.env.NODE_ENV === 'production' ? 'https://odgit.github.io/collection-viewer/' : '/',
+  productionSourceMap: true
 };
