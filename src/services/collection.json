@@ -13,6 +13,18 @@
       "region": "NOE"
     },
     {
+      "title": "Metroid II: Return of Samus",
+      "platform": "GB",
+      "bootleg": false,
+      "region": "UKV"
+    },
+    {
+      "title": "Wario Land 3",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
       "title": "The Incredibles: Rise of the underminer",
       "platform": "GBA",
       "bootleg": false,
