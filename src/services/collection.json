@@ -25,6 +25,18 @@
       "region": "EUR"
     },
     {
+      "title": "Wario Land 4",
+      "platform": "GBA",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Mario's Picross",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "NOE"
+    },
+    {
       "title": "The Incredibles: Rise of the underminer",
       "platform": "GBA",
       "bootleg": false,
