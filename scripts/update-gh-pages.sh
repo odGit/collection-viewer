@@ -14,8 +14,12 @@ git config user.email "{$GITHUB_ACTOR}@bots.github.com"
 
 echo "Create folder"  
 mkdir -p "${build_dir}"
+echo "Fetch gh-pages into subtree"
 git subtree split --prefix "${build_dir}" -b "${target_branch}"
+echo "Build project in to dist"
 yarn run build
+echo "Push to gh-pages"
 git push -f origin "${target_branch}":"${target_branch}"
+echo "Cleaning up after deployment"
 git branch -D "${target_branch}"
 rm -rf "${build_dir}"
