@@ -18,6 +18,9 @@ echo "Fetch gh-pages into subtree"
 git subtree split --prefix "${build_dir}" -b "${target_branch}"
 echo "Build project in to dist"
 yarn run build
+echo "Add to staging dist/ "
+git add -f dist
+git commit -m "Update gh-pages"
 echo "Push to gh-pages"
 git push -f origin "${target_branch}":"${target_branch}"
 echo "Cleaning up after deployment"
