@@ -8,10 +8,11 @@ main_branch="master"
 target_branch="gh-pages"
 build_dir="dist"
 
-
+echo "Configuring user.name && user.email"
 git config user.name "$GITHUB_ACTOR"
 git config user.email "{$GITHUB_ACTOR}@bots.github.com"
 
+echo "Create folder"  
 mkdir -p "${build_dir}"
 git subtree split --prefix "${build_dir}" -b "${target_branch}"
 yarn run build

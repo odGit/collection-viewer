@@ -32,6 +32,6 @@ jobs:
       - name: Install dependencies
         run: yarn 
       - name: Setup repo before deployment
-        run: ${GITHUB_WORKSPACE}/.github/script.sh
+        run: ${GITHUB_WORKSPACE}/.scripts/update-gh-pages.sh
         env:
           DEPLOY_TOKEN: ${{ secrets.GITHUB_TOKEN }}
