@@ -1,6 +1,6 @@
 .DS_Store
 node_modules
-/dist
+# /dist  # To be able to push to gp-pages
 
 /tests/e2e/videos/
 /tests/e2e/screenshots/
