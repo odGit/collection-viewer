@@ -1,6 +1,14 @@
 {
   "collection": [
     {
+      "title": "The Legend of Zelda: Link's Awakening",
+      "platform": "GB",
+      "bootleg": false,
+      "region": "SCN",
+      "series": "The Legend of Zelda",
+      "hasBattery": true
+    },
+    {
       "title": "Lemony Snicket's A Series of Unfortunate Events",
       "platform": "GBA",
       "bootleg": false,
