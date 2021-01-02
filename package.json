@@ -9,7 +9,7 @@
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint",
     "deploy":"gh-pages -d dist",
-    "actions:deploy":"gh-pages -d dist --name $GITHUB_ACTOR --email $GITHUB_ACTOR@users.noreply.github.com --no-silent"
+    "action:deploy":"gh-pages -d dist --name $GITHUB_ACTOR --email $GITHUB_ACTOR@users.noreply.github.com --no-silent"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
