@@ -6,9 +6,8 @@ name: Deploy to GH pages
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    branches:
+      - master
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -34,5 +33,15 @@ jobs:
         run: yarn 
       - name: Start Build
         run: yarn run build
-      - name: Deploy site
-        run: yarn run action:deploy
+      - name: Setup repo before deployment
+        run: ./scripts/update-gh-pages.sh && 
+      - name: Pull gh-pages branch
+        run: yarn run gh-pages:pull 
+      - name: Build project
+        run: yarn run build 
+      - name: Push to branch 'gh-pages'
+        run: yarn run gh-pages:push
+      - name: Clean up after deployment 
+        run: yarn run gh-pages:clean-up
+        env:
+          DEPLOY_TOKEN: ${{ secrets.GITHUB_TOKEN }}
