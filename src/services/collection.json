@@ -1,6 +1,12 @@
 {
   "collection": [
     {
+      "title": "Mr. Driller 2",
+      "platform": "GBA",
+      "bootleg": false,
+      "region": "SCN"
+    },
+    {
       "title": "The Legend of Zelda: Link's Awakening",
       "platform": "GB",
       "bootleg": false,
