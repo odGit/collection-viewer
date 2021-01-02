@@ -8,10 +8,11 @@
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint",
-    "gh-pages:pull": "mkdir -p dist/ && git subtree split --prefix dist -b gh-pages",
+    "gh-pages:pull": "mkdir -p olga && git subtree split --prefix olga -b gh-pages",
     "gh-pages:push": "git push -f origin gh-pages:gh-pages",
     "gh-pages:clean-up": "git branch -D gh-pages && rm -rf dist/",
-    "local:deploy": "yarn run gh-pages:pull && yarn run build &&  yarn run gh-pages:push && yarn run gh-pages:clean-up"
+    "gh-pages:stage-dist": "git add -f dist && git commit -m 'Update gh-pages'",
+    "local:deploy": "yarn run gh-pages:pull && yarn run build && yarn run gh-pages:stage-dist && yarn run gh-pages:push && yarn run gh-pages:clean-up"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",

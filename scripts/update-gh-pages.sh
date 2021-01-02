@@ -18,7 +18,7 @@ git subtree split --prefix "${build_dir}" -b "${target_branch}"
 echo "Build project in to dist"
 yarn run build
 echo "Add to staging dist/ "
-git add -f dist
+git add -f "${build_dir}"
 git commit -m "Update gh-pages"
 echo "Push to gh-pages"
 git push -f "${remote_name}" "${target_branch}":"${target_branch}"
