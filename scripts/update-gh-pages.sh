@@ -2,7 +2,6 @@
 
 set -eu
 
-repo_uri="https://x-access-token:${DEPLOY_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 remote_name="origin"
 main_branch="master"
 target_branch="gh-pages"
@@ -22,7 +21,7 @@ echo "Add to staging dist/ "
 git add -f dist
 git commit -m "Update gh-pages"
 echo "Push to gh-pages"
-git push -f origin "${target_branch}":"${target_branch}"
+git push -f "${remote_name}" "${target_branch}":"${target_branch}"
 echo "Cleaning up after deployment"
 git branch -D "${target_branch}"
 rm -rf "${build_dir}"
