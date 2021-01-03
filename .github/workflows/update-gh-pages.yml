@@ -33,9 +33,5 @@ jobs:
         run: yarn 
       - name: Setup repo before deployment
         run: bash ${GITHUB_WORKSPACE}/scripts/update-gh-pages.sh
-      - name: Build project
-        run: yarn run build
-      - name: Deploy with gh-pages
-        run: yarn run deploy
         env:
           DEPLOY_TOKEN: ${{ secrets.GITHUB_TOKEN }}

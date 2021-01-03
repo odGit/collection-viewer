@@ -11,6 +11,11 @@ echo "Configuring user.name && user.email"
 git config user.name "$GITHUB_ACTOR"
 git config user.email "{$GITHUB_ACTOR}@bots.github.com"
 
+echo "Build project in to dist"
+yarn run build
+echo "Deploy using GH pages"
+yarn run deploy
+
 # echo "Create folder"  
 # mkdir -p "${build_dir}"
 # echo "Fetch gh-pages into subtree"
