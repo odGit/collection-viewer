@@ -36,6 +36,6 @@ jobs:
       - name: Build project
         run: yarn run build
       - name: Deploy with gh-pages
-        run: gh-pages -d dist
+        run: yarn run deploy
         env:
           DEPLOY_TOKEN: ${{ secrets.GITHUB_TOKEN }}

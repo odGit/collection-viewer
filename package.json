@@ -14,7 +14,8 @@
     "gh-pages:push": "git subtree push —prefix dist -b gh-pages",
     "gh-pages:clean-up": "git branch -D gh-pages && rm -rf dist/",
     "gh-pages:stage-dist": "git add -f dist && git commit -m 'Update gh-pages'",
-    "local:deploy": "yarn run gh-pages:pull && yarn run build && yarn run gh-pages:stage-dist && yarn run gh-pages:push && yarn run gh-pages:clean-up"
+    "local:deploy": "yarn run gh-pages:pull && yarn run build && yarn run gh-pages:stage-dist && yarn run gh-pages:push && yarn run gh-pages:clean-up",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
