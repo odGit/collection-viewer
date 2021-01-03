@@ -11,10 +11,19 @@ echo "Configuring user.name && user.email"
 git config user.name "$GITHUB_ACTOR"
 git config user.email "{$GITHUB_ACTOR}@bots.github.com"
 
+echo "Set worktree"
+git worktree add -b gh-pages ./gh-pages origin/gh-pages
 echo "Build project in to dist"
 yarn run build
-echo "Deploy using GH pages"
-yarn run deploy
+echo "Copy to gh-pages"
+cp -a dist/. gh-pages/
+echo "Push to gh-pages"
+cd gh-pages
+git add -all
+git commit -m "deploy to pages"
+git push origin gh-pages --force
+echo "Cleaning up"
+cd .. && git worktree remove gh-pages
 
 # echo "Create folder"  
 # mkdir -p "${build_dir}"
