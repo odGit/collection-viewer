@@ -1,6 +1,12 @@
 {
   "collection": [
     {
+      "title": "Hamtaro",
+      "platform": "GBA",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
       "title": "Mr. Driller 2",
       "platform": "GBA",
       "bootleg": false,
