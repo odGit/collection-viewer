@@ -17,7 +17,7 @@
 
 <script lang="ts">
 import { Component, Vue, Watch } from 'vue-property-decorator';
-import json from '@/services/collection.json';
+import { COLLECTION } from '@/services/collection.ts';
 import Search from '@/components/search.vue';
 
 import Item from '@/components/item.vue';
@@ -29,7 +29,7 @@ import Item from '@/components/item.vue';
   }
 })
 export default class App extends Vue {
-  private collectionData: Collection.Game[] = json.collection;
+  private collectionData: Collection.Game[] = COLLECTION;
   private searchText = '';
   private filteredData = [] as Collection.Game[];
 
