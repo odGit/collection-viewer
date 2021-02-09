@@ -1,6 +1,26 @@
 {
   "collection": [
     {
+      "title": "Home on the Range",
+      "platform": "GBA",
+      "bootleg": false,
+      "region": "SCN",
+      "hasBattery": false
+    },
+    {
+      "title": "F-Zero: Maximum Velocity",
+      "platform": "GBA",
+      "bootleg": false,
+      "region": "EUR-1",
+      "series": "F-Zero"
+    },
+    {
+      "title": "Lilo & Stitch",
+      "platform": "GBA",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
       "title": "Hamtaro",
       "platform": "GBA",
       "bootleg": false,
@@ -10,7 +30,7 @@
       "title": "Mr. Driller 2",
       "platform": "GBA",
       "bootleg": false,
-      "region": "SCN"
+      "region": "EUR"
     },
     {
       "title": "The Legend of Zelda: Link's Awakening",
@@ -36,19 +56,22 @@
       "title": "Metroid II: Return of Samus",
       "platform": "GB",
       "bootleg": false,
-      "region": "UKV"
+      "region": "UKV",
+      "series": "Metroid"
     },
     {
       "title": "Wario Land 3",
       "platform": "GBC",
       "bootleg": false,
-      "region": "EUR"
+      "region": "EUR",
+      "series": "Wario"
     },
     {
       "title": "Wario Land 4",
       "platform": "GBA",
       "bootleg": false,
-      "region": "EUR"
+      "region": "EUR",
+      "series": "Wario"
     },
     {
       "title": "Mario's Picross",
@@ -93,7 +116,7 @@
       "region": "EUR"
     },
     {
-      "title": "Bomber man : Pocket",
+      "title": "Bomber man: Pocket",
       "platform": "GBC",
       "bootleg": false,
       "region": "EUR"
@@ -102,25 +125,29 @@
       "title": "Donkey Kong Land 3",
       "platform": "GBC",
       "bootleg": false,
-      "region": "EUR"
+      "region": "EUR",
+      "series": "Donkey Kong"
     },
     {
       "title": "Donkey Kong Land 2",
       "platform": "GBC",
       "bootleg": false,
-      "region": "EUR"
+      "region": "EUR",
+      "series": "Donkey Kong"
     },
     {
       "title": "Donkey Kong Land",
       "platform": "GBC",
       "bootleg": false,
-      "region": "EUR"
+      "region": "EUR",
+      "series": "Donkey Kong"
     },
     {
       "title": "Donkey Kong",
       "platform": "GBC",
       "bootleg": false,
-      "region": "EUR"
+      "region": "EUR",
+      "series": "Donkey Kong"
     },
     {
       "title": "Draculo",
@@ -186,7 +213,8 @@
       "title": "Wario Blast",
       "platform": "GBC",
       "bootleg": false,
-      "region": "EUR"
+      "region": "EUR",
+      "series": "Wario"
     },
     {
       "title": "Qix",
@@ -231,22 +259,64 @@
       "region": "EUR"
     },
     {
-      "title": "Harry Potter: Philosopher’s stone",
+      "title": "The Powerpuff Girls: Bad Mojo Jojo ",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "UKV",
+      "series": "The Powerpuff Girls"
+    },
+    {
+      "title": "The Powerpuff Girls: Battle HIM ",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "UKV",
+      "series": "The Powerpuff Girls"
+    },
+    {
+      "title": "Tarzan",
       "platform": "GBC",
       "bootleg": false,
       "region": "EUR"
     },
     {
+      "title": "Snow White and the seven dwarfs",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "The 6 in 1 Puzzle collection Entertainment Pack",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "EUR"
+    },
+    {
+      "title": "Harry Potter: Philosopher’s stone",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "EUR",
+      "series": "Harry Potter"
+    },
+    {
+      "title": "Harry Potter: Philosopher’s stone",
+      "platform": "GBC",
+      "bootleg": false,
+      "region": "EUR",
+      "series": "Harry Potter"
+    },
+    {
       "title": "Kirby’s Dream Land",
       "platform": "GB",
       "bootleg": false,
-      "region": "EUR"
+      "region": "EUR",
+      "series": "Kirby"
     },
     {
       "title": "Kirby’s Dream Land 2",
       "platform": "GB",
       "bootleg": false,
-      "region": "EUR"
+      "region": "EUR",
+      "series": "Kirby"
     },
     {
       "title": "Lego Racers",
@@ -264,13 +334,15 @@
       "title": "Mega Man: Dr. Wily’s Rache",
       "platform": "GB",
       "bootleg": false,
-      "region": "EUR"
+      "region": "EUR",
+      "series": "Mega Man"
     },
     {
       "title": "Mega Man 2",
       "platform": "GB",
       "bootleg": true,
-      "region": "EUR"
+      "region": "EUR",
+      "series":"Mega Man"
     },
     {
       "title": "Mole Mania (Mogurānya)",
@@ -300,7 +372,8 @@
       "title": "Pokémon Gold",
       "platform": "GB",
       "bootleg": true,
-      "region": "EUR"
+      "region": "EUR",
+      "series": "Pokémon"
     },
     {
       "title": "Pong",
@@ -330,19 +403,22 @@
       "title": "Super Mario Land",
       "platform": "GB",
       "bootleg": false,
-      "region": "EUR"
+      "region": "EUR",
+      "series": "Super Mario"
     },
     {
       "title": "Super Mario Land 2: 6 golden Coins",
       "platform": "GB",
       "bootleg": false,
-      "region": "EUR"
+      "region": "EUR",
+      "series":"Super Mario"
     },
     {
       "title": "Super Mario Land 3: Wario land",
       "platform": "GB",
       "bootleg": false,
-      "region": "EUR"
+      "region": "EUR",
+      "series": "Wario"
     },
     {
       "title": "Wave Race",
@@ -366,10 +442,11 @@
       "title": "Golden Sun: the lost age",
       "platform": "GBA",
       "bootleg": false,
-      "region": "EUR"
+      "region": "EUR",
+      "series": "Golden Sun"
     },
     {
-      "title": "Maze of Fate (bootleg?)",
+      "title": "Maze of Fate",
       "platform": "GBA",
       "bootleg": true,
       "region": "EUR"
@@ -384,25 +461,37 @@
       "title": "Super Mario Advance 3: Yoshi’s Island",
       "platform": "GBA",
       "bootleg": true,
-      "region": "USA"
+      "region": "USA",
+      "series": "Super Mario"
     },
     {
       "title": "Super Mario Advance 4: Super Mario Bros 3",
       "platform": "GBA",
       "bootleg": true,
-      "region": "USA"
+      "region": "USA",
+      "series": "Super Mario"
+    },
+    {
+      "title": "Super Mario Advance 4: Super Mario Bros 3",
+      "platform": "GBA",
+      "bootleg": false,
+      "region": "EUR",
+      "series": "Super Mario"
+
     },
     {
       "title": "Super Mario World: Super Mario Advance 2",
       "platform": "GBA",
       "bootleg": false,
-      "region": "EUR"
+      "region": "EUR",
+      "series": "Super Mario"
     },
     {
       "title": "Super Mario Bros",
       "platform": "GBA",
       "bootleg": false,
-      "region": "EUR"
+      "region": "EUR",
+      "series": "Super Mario"
     },
     {
       "title": "Gex",
@@ -432,7 +521,8 @@
       "title": "Wario Land 2",
       "platform": "GB",
       "bootleg": false,
-      "region": "EUR"
+      "region": "EUR",
+      "series": "Wario"
     }
   ]
 }
