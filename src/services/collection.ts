@@ -1,5 +1,82 @@
 export const COLLECTION: Collection.Game[] = [
   {
+    title: 'Kingdom Hearts: Chain of Memories',
+    platform: 'GBA',
+    bootleg: false,
+    region: 'USA',
+    hasBattery: false
+  },
+  {
+    title: 'Mario Tennis',
+    platform: 'GBC',
+    bootleg: false,
+    region: 'EUR',
+    hasBattery: false
+  },
+  {
+    title: 'Super Mario Bros. Deluxe',
+    platform: 'GBC',
+    bootleg: false,
+    region: 'USA',
+    hasBattery: false
+  },
+  {
+    title: "Kirby's star stacker",
+    platform: 'GB',
+    bootleg: false,
+    region: 'EUR',
+    hasBattery: false
+  },
+  {
+    title: 'DR Mario',
+    platform: 'GB',
+    bootleg: false,
+    region: 'SCN',
+    hasBattery: false
+  },
+  {
+    title: 'Prince of Persio',
+    platform: 'GBC',
+    bootleg: false,
+    region: 'EUR',
+    hasBattery: false
+  },
+  {
+    title: 'Harvest Moon GB',
+    platform: 'GB',
+    bootleg: false,
+    region: 'EUR',
+    hasBattery: false
+  },
+  {
+    title: 'Batman Forever',
+    platform: 'GB',
+    bootleg: false,
+    region: 'EUR',
+    hasBattery: false
+  },
+  {
+    title: 'Kwirk',
+    platform: 'GB',
+    bootleg: false,
+    region: 'USA',
+    hasBattery: false
+  },
+  {
+    title: 'Mystic quest',
+    platform: 'GB',
+    bootleg: false,
+    region: 'SCN',
+    hasBattery: false
+  },
+  {
+    title: 'Lady Sia',
+    platform: 'GBA',
+    bootleg: false,
+    region: 'EUR',
+    hasBattery: false
+  },
+  {
     title: 'Home on the Range',
     platform: 'GBA',
     bootleg: false,
