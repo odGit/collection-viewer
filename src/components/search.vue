@@ -25,10 +25,13 @@ export default class Search extends Vue {
 <style scoped>
   .search {
     width: 100%;
-    min-width: 360px;
     margin: 15px 0
   }
   .search > input {
-      margin-right: 15px;
-    }
+    margin-right: 15px;
+    min-width: 280px;
+    border-radius: 60px;
+    font-size: 14px;
+    line-height: 20px;
+  }
 </style>

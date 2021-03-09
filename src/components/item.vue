@@ -49,11 +49,11 @@ export default class Item extends Vue {
     width: auto;
     display: inline-flex;
     border: solid 1px;
-    border-radius: 10% 60px;
-    border-color: goldenrod;
+    border-radius: 60px 10%;
+    border-color: #9abbb0;
     padding: 5px 10px;
     margin: 5px 0;
-    min-width: 360px;
+    min-width: 280px;
   }
 
   .item-element {
