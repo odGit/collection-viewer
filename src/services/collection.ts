@@ -7,6 +7,13 @@ export const COLLECTION: Collection.Game[] = [
     hasBattery: false
   },
   {
+    title: 'Broken Sword: The Shadow of the Templars',
+    platform: 'GBA',
+    bootleg: false,
+    region: 'EUR',
+    hasBattery: false
+  },
+  {
     title: 'Mario Tennis',
     platform: 'GBC',
     bootleg: false,
