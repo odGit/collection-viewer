@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <search v-model="searchText" />
+    <search v-model="searchText" :total="filteredData.length" />
     <div
       v-for="(item, index) in filteredData"
       :key='`list-item-${index}`'
@@ -17,7 +17,7 @@
 
 <script lang="ts">
 import { Component, Vue, Watch } from 'vue-property-decorator';
-import { COLLECTION } from '@/services/collection.ts';
+import { COLLECTION } from '@/services/collection';
 import Search from '@/components/search.vue';
 
 import Item from '@/components/item.vue';

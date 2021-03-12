@@ -2,6 +2,7 @@
   <div class="search">
     <input :value='value' @input='$emit("input", $event.target.value)'>
     <font-awesome-icon :icon='searchIcon' />
+    <span v-text="`Total: ${total}`"/>
   </div>
 </template>
 
@@ -18,6 +19,9 @@ export default class Search extends Vue {
   @Prop({ required: false })
   value!: string;
 
+  @Prop({ required: false, default: -1 })
+  total!: number;
+
   private searchIcon = faSearch;
 }
 </script>
@@ -33,5 +37,8 @@ export default class Search extends Vue {
     border-radius: 60px;
     font-size: 14px;
     line-height: 20px;
+  }
+  .search > span {
+    padding-left: 1rem;
   }
 </style>
