@@ -1,19 +1,16 @@
 <template>
   <div class="item">
-    <div class="item-element">
-      <font-awesome-icon :icon='titleIcon' />
+    <div class="item-titel">
+      <font-awesome-icon :icon='item.isBootleg ? bootlegIcon : titleIcon' />
       <span>
-        {{ title }}
+        {{ item.title }}
       </span>
     </div>
     <div class="item-element">
       <font-awesome-icon :icon='platformIcon' />
-      <span>
-        {{ platform }}
-      </span>
-    </div>
-    <div class="item-element">
-      <font-awesome-icon v-if="isBootleg" :icon='bootlegIcon' />
+      <span v-text="item.platform"/>
+      <font-awesome-icon v-if="item.hasBooklet" :icon='bookIcon' />
+      <font-awesome-icon v-if="item.hasBox" :icon='boxedIcon' />
     </div>
   </div>
 </template>
@@ -21,7 +18,7 @@
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-import { faGamepad, faDizzy, faTag } from '@fortawesome/free-solid-svg-icons';
+import { faGamepad, faDizzy, faTag, faBoxOpen, faBook } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   components: {
@@ -30,23 +27,19 @@ import { faGamepad, faDizzy, faTag } from '@fortawesome/free-solid-svg-icons';
 })
 export default class Item extends Vue {
   @Prop({ required: true })
-  title!: string;
-
-  @Prop({ required: true })
-  platform!: string;
-
-  @Prop({ required: true })
-  isBootleg!: boolean;
+  item!: Collection.Game | List.Game;
 
   private titleIcon = faTag;
   private bootlegIcon = faDizzy;
   private platformIcon = faGamepad;
+  private boxedIcon = faBoxOpen;
+  private bookIcon = faBook;
 }
 </script>
 
 <style>
   .item {
-    width: auto;
+    width: 60%;
     display: inline-flex;
     border: solid 1px;
     border-radius: 60px 10%;
@@ -56,7 +49,11 @@ export default class Item extends Vue {
     min-width: 280px;
   }
 
-  .item-element {
+  .item-titel {
     padding: 0 5px;
+  }
+
+  .item-element {
+    margin-left: auto;
   }
 </style>
