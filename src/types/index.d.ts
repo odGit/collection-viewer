@@ -12,7 +12,7 @@ namespace Collection {
     platform: string;
     bootleg: boolean;
     region: string;
-    series?: string;
+    series?: string[];
     hasBattery?: boolean;
   }
 }

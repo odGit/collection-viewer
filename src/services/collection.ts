@@ -1,5 +1,76 @@
 export const COLLECTION: Collection.Game[] = [
   {
+    title: 'Who Framed Roger Rabbit',
+    platform: 'GB',
+    bootleg: false,
+    region: 'SCN',
+    hasBattery: false
+  },
+  {
+    title: 'Mario & Yoshi',
+    platform: 'GB',
+    bootleg: false,
+    region: 'EUR',
+    hasBattery: false,
+    series: ['Mario', 'Yoshi']
+  },
+  {
+    title: "Tiny Toon Adventures: Montana's Movie Madness",
+    platform: 'GB',
+    bootleg: false,
+    region: 'USA',
+    hasBattery: false
+  },
+  {
+    title: 'Tennis',
+    platform: 'GB',
+    bootleg: false,
+    region: 'UKV',
+    hasBattery: false
+  },
+  {
+    title: '3D Pocket Pool',
+    platform: 'GBC',
+    bootleg: false,
+    region: 'EUR',
+    hasBattery: false
+  },
+  {
+    title: "Beach'n Ball",
+    platform: 'GBC',
+    bootleg: false,
+    region: 'EUR',
+    hasBattery: false
+  },
+  {
+    title: 'The Smurfs',
+    platform: 'GB',
+    bootleg: false,
+    region: 'NOE-1',
+    hasBattery: false
+  },
+  {
+    title: 'Break Thru!',
+    platform: 'GB',
+    bootleg: false,
+    region: 'USA',
+    hasBattery: false
+  },
+  {
+    title: 'Game Boy Gallery',
+    platform: 'GB',
+    bootleg: false,
+    region: 'GPS',
+    hasBattery: false
+  },
+  {
+    title: 'Kurukuru kururin',
+    platform: 'GBA',
+    bootleg: false,
+    region: 'EUR',
+    hasBattery: false
+  },
+  {
     title: 'Kingdom Hearts: Chain of Memories',
     platform: 'GBA',
     bootleg: false,
@@ -39,7 +110,8 @@ export const COLLECTION: Collection.Game[] = [
     platform: 'GB',
     bootleg: false,
     region: 'SCN',
-    hasBattery: false
+    hasBattery: false,
+    series: ['Mario']
   },
   {
     title: 'Prince of Persio',
@@ -95,7 +167,7 @@ export const COLLECTION: Collection.Game[] = [
     platform: 'GBA',
     bootleg: false,
     region: 'EUR-1',
-    series: 'F-Zero'
+    series: ['F-Zero']
   },
   {
     title: 'Lilo & Stitch',
@@ -120,7 +192,7 @@ export const COLLECTION: Collection.Game[] = [
     platform: 'GB',
     bootleg: false,
     region: 'SCN',
-    series: 'The Legend of Zelda',
+    series: ['The Legend of Zelda'],
     hasBattery: true
   },
   {
@@ -140,27 +212,28 @@ export const COLLECTION: Collection.Game[] = [
     platform: 'GB',
     bootleg: false,
     region: 'UKV',
-    series: 'Metroid'
+    series: ['Metroid']
   },
   {
     title: 'Wario Land 3',
     platform: 'GBC',
     bootleg: false,
     region: 'EUR',
-    series: 'Wario'
+    series: ['Wario']
   },
   {
     title: 'Wario Land 4',
     platform: 'GBA',
     bootleg: false,
     region: 'EUR',
-    series: 'Wario'
+    series: ['Wario']
   },
   {
     title: "Mario's Picross",
     platform: 'GBC',
     bootleg: false,
-    region: 'NOE'
+    region: 'NOE',
+    series: ['Mario']
   },
   {
     title: 'The Incredibles: Rise of the underminer',
@@ -209,31 +282,31 @@ export const COLLECTION: Collection.Game[] = [
     platform: 'GBC',
     bootleg: false,
     region: 'EUR',
-    series: 'Donkey Kong'
+    series: ['Donkey Kong']
   },
   {
     title: 'Donkey Kong Land 2',
     platform: 'GBC',
     bootleg: false,
     region: 'EUR',
-    series: 'Donkey Kong'
+    series: ['Donkey Kong']
   },
   {
     title: 'Donkey Kong Land',
     platform: 'GBC',
     bootleg: false,
     region: 'EUR',
-    series: 'Donkey Kong'
+    series: ['Donkey Kong']
   },
   {
     title: 'Donkey Kong',
     platform: 'GBC',
     bootleg: false,
     region: 'EUR',
-    series: 'Donkey Kong'
+    series: ['Donkey Kong']
   },
   {
-    title: 'Draculo',
+    title: "Bram Stoker's Dracula",
     platform: 'GB',
     bootleg: false,
     region: 'EUR'
@@ -242,7 +315,8 @@ export const COLLECTION: Collection.Game[] = [
     title: 'Dragon Quest Monsters Terry',
     platform: 'GBC',
     bootleg: false,
-    region: 'JAP'
+    region: 'JAP',
+    series: ['Dragon Quest Monsters']
   },
   {
     title: 'Dropzone',
@@ -297,7 +371,7 @@ export const COLLECTION: Collection.Game[] = [
     platform: 'GBC',
     bootleg: false,
     region: 'EUR',
-    series: 'Wario'
+    series: ['Wario']
   },
   {
     title: 'Qix',
@@ -346,14 +420,14 @@ export const COLLECTION: Collection.Game[] = [
     platform: 'GBC',
     bootleg: false,
     region: 'UKV',
-    series: 'The Powerpuff Girls'
+    series: ['The Powerpuff Girls']
   },
   {
     title: 'The Powerpuff Girls: Battle HIM ',
     platform: 'GBC',
     bootleg: false,
     region: 'UKV',
-    series: 'The Powerpuff Girls'
+    series: ['The Powerpuff Girls']
   },
   {
     title: 'Tarzan',
@@ -378,28 +452,28 @@ export const COLLECTION: Collection.Game[] = [
     platform: 'GBC',
     bootleg: false,
     region: 'EUR',
-    series: 'Harry Potter'
+    series: ['Harry Potter']
   },
   {
     title: 'Harry Potter: Philosopher’s stone',
     platform: 'GBC',
     bootleg: false,
     region: 'EUR',
-    series: 'Harry Potter'
+    series: ['Harry Potter']
   },
   {
     title: 'Kirby’s Dream Land',
     platform: 'GB',
     bootleg: false,
     region: 'EUR',
-    series: 'Kirby'
+    series: ['Kirby']
   },
   {
     title: 'Kirby’s Dream Land 2',
     platform: 'GB',
     bootleg: false,
     region: 'EUR',
-    series: 'Kirby'
+    series: ['Kirby']
   },
   {
     title: 'Lego Racers',
@@ -418,14 +492,14 @@ export const COLLECTION: Collection.Game[] = [
     platform: 'GB',
     bootleg: false,
     region: 'EUR',
-    series: 'Mega Man'
+    series: ['Mega Man']
   },
   {
     title: 'Mega Man 2',
     platform: 'GB',
     bootleg: true,
     region: 'EUR',
-    series: 'Mega Man'
+    series: ['Mega Man']
   },
   {
     title: 'Mole Mania (Mogurānya)',
@@ -456,7 +530,7 @@ export const COLLECTION: Collection.Game[] = [
     platform: 'GB',
     bootleg: true,
     region: 'EUR',
-    series: 'Pokémon'
+    series: ['Pokémon']
   },
   {
     title: 'Pong',
@@ -487,21 +561,35 @@ export const COLLECTION: Collection.Game[] = [
     platform: 'GB',
     bootleg: false,
     region: 'EUR',
-    series: 'Super Mario'
+    series: ['Super Mario']
+  },
+  {
+    title: 'Super Mario Land',
+    platform: 'GB',
+    bootleg: false,
+    region: 'EUR',
+    series: ['Super Mario']
+  },
+  {
+    title: 'Super Mario Land 2: 6 golden Coins',
+    platform: 'GB',
+    bootleg: false,
+    region: 'AUS',
+    series: ['Super Mario']
   },
   {
     title: 'Super Mario Land 2: 6 golden Coins',
     platform: 'GB',
     bootleg: false,
     region: 'EUR',
-    series: 'Super Mario'
+    series: ['Super Mario']
   },
   {
     title: 'Super Mario Land 3: Wario land',
     platform: 'GB',
     bootleg: false,
     region: 'EUR',
-    series: 'Wario'
+    series: ['Wario']
   },
   {
     title: 'Wave Race',
@@ -526,7 +614,7 @@ export const COLLECTION: Collection.Game[] = [
     platform: 'GBA',
     bootleg: false,
     region: 'EUR',
-    series: 'Golden Sun'
+    series: ['Golden Sun']
   },
   {
     title: 'Maze of Fate',
@@ -545,21 +633,21 @@ export const COLLECTION: Collection.Game[] = [
     platform: 'GBA',
     bootleg: true,
     region: 'USA',
-    series: 'Super Mario'
+    series: ['Super Mario']
   },
   {
     title: 'Super Mario Advance 4: Super Mario Bros 3',
     platform: 'GBA',
     bootleg: true,
     region: 'USA',
-    series: 'Super Mario'
+    series: ['Super Mario']
   },
   {
     title: 'Super Mario Advance 4: Super Mario Bros 3',
     platform: 'GBA',
     bootleg: false,
     region: 'EUR',
-    series: 'Super Mario'
+    series: ['Super Mario']
 
   },
   {
@@ -567,14 +655,14 @@ export const COLLECTION: Collection.Game[] = [
     platform: 'GBA',
     bootleg: false,
     region: 'EUR',
-    series: 'Super Mario'
+    series: ['Super Mario']
   },
   {
     title: 'Super Mario Bros',
     platform: 'GBA',
     bootleg: false,
     region: 'EUR',
-    series: 'Super Mario'
+    series: ['Super Mario']
   },
   {
     title: 'Gex',
@@ -605,6 +693,6 @@ export const COLLECTION: Collection.Game[] = [
     platform: 'GB',
     bootleg: false,
     region: 'EUR',
-    series: 'Wario'
+    series: ['Wario']
   }
 ];
