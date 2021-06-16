@@ -12,10 +12,6 @@ export const LIST: List.Game[] = [
     platform: 'GBA'
   },
   {
-    title: 'Kirby - Nightmare In Dreamland',
-    platform: 'GBA'
-  },
-  {
     title: 'WarioWare, Inc.',
     platform: 'GBA'
   },
