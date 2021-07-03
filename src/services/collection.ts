@@ -187,6 +187,18 @@ export const COLLECTION: Collection.Game[] = [
     series: ['Metroid']
   },
   {
+    title: 'Metroid Fusion',
+    platform: 'GBA',
+    region: 'UKV',
+    series: ['Metroid']
+  },
+  {
+    title: 'Metroid: Zero Mission',
+    platform: 'GBA',
+    region: 'USA',
+    series: ['Metroid']
+  },
+  {
     title: 'Wario Land 3',
     platform: 'GBC',
     region: 'EUR',
@@ -553,6 +565,12 @@ export const COLLECTION: Collection.Game[] = [
     series: ['Super Mario']
   },
   {
+    title: 'Super Mario World 2: Yoshi´s Island',
+    platform: 'GBA',
+    region: 'EUR',
+    series: ['Super Mario', 'Yoshi']
+  },
+  {
     title: 'Super Mario Advance 4: Super Mario Bros 3',
     platform: 'GBA',
     isBootleg: true,
@@ -603,5 +621,11 @@ export const COLLECTION: Collection.Game[] = [
     platform: 'GB',
     region: 'EUR',
     series: ['Wario']
+  },
+  {
+    title: 'Yoshi Topsy Turvy',
+    platform: 'GBA',
+    region: 'USA',
+    series: ['Yoshi']
   }
 ];
