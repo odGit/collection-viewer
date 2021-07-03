@@ -1,9 +1,5 @@
 export const LIST: List.Game[] = [
   {
-    title: 'Metroid Fusion',
-    platform: 'GBA'
-  },
-  {
     title: 'Kirby & The Amazing Mirror',
     platform: 'GBA'
   },
@@ -49,10 +45,6 @@ export const LIST: List.Game[] = [
   },
   {
     title: 'Megaman Zero',
-    platform: 'GBA'
-  },
-  {
-    title: 'Yoshi Topsy Turvy',
     platform: 'GBA'
   },
   {
