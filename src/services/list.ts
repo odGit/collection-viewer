@@ -60,6 +60,86 @@ export const LIST: List.Game[] = [
     platform: 'GB'
   },
   {
+    title: 'Dragon Quest V',
+    platform: 'DS'
+  },
+  {
+    title: 'Chrono trigger',
+    platform: 'DS'
+  },
+  {
+    title: 'The world ends with you',
+    platform: 'DS'
+  },
+  {
+    title: 'Ghost Trick: Phantom Detective',
+    platform: 'DS'
+  },
+  {
+    title: '9 Hours, 9 Persons, 9 Doors',
+    platform: 'DS'
+  },
+  {
+    title: 'Little red riding hood: Zombie BBQ',
+    platform: 'DS'
+  },
+  {
+    title: 'Point Blank',
+    platform: 'DS'
+  },
+  {
+    title: 'The Dark Spire',
+    platform: 'DS'
+  },
+  {
+    title: 'Viewtiful Joe',
+    platform: 'DS'
+  },
+  {
+    title: 'Time Hollow',
+    platform: 'DS'
+  },
+  {
+    title: 'Boing Docomodake',
+    platform: 'DS'
+  },
+  {
+    title: 'Trackmania Turbo: Build to Race',
+    platform: 'DS'
+  },
+  {
+    title: 'Aliens Infestation',
+    platform: 'DS'
+  },
+  {
+    title: 'The legendary starfy',
+    platform: 'DS'
+  },
+  {
+    title: 'Mario vs Donky Kong 1&2',
+    platform: 'DS'
+  },
+  {
+    title: 'Bangai O Spirits',
+    platform: 'DS'
+  },
+  {
+    title: 'Izuna',
+    platform: 'DS'
+  },
+  {
+    title: 'Moon',
+    platform: 'DS'
+  },
+  {
+    title: 'Soul Bubbles',
+    platform: 'DS'
+  },
+  {
+    title: 'Dementium 1&2',
+    platform: 'DS'
+  },
+  {
     title: 'Police Quest',
     platform: 'GB'
   }
