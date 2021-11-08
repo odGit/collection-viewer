@@ -112,6 +112,12 @@ export const COLLECTION: Collection.Game[] = [
     hasBattery: false
   },
   {
+    title: 'Harvest Moon: Friends of mineral town',
+    platform: 'GBA',
+    region: 'EUR',
+    hasBattery: false
+  },
+  {
     title: 'Batman Forever',
     platform: 'GB',
     region: 'EUR',
@@ -558,6 +564,11 @@ export const COLLECTION: Collection.Game[] = [
     region: 'JAP'
   },
   {
+    title: 'Advance wars',
+    platform: 'GBA',
+    region: 'EUR'
+  },
+  {
     title: 'Super Mario Advance 3: Yoshi’s Island',
     platform: 'GBA',
     isBootleg: true,
@@ -565,7 +576,7 @@ export const COLLECTION: Collection.Game[] = [
     series: ['Super Mario']
   },
   {
-    title: 'Super Mario World 2: Yoshi´s Island',
+    title: 'Super Mario World 3: Yoshi´s Island',
     platform: 'GBA',
     region: 'EUR',
     series: ['Super Mario', 'Yoshi']

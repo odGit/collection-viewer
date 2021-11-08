@@ -16,10 +16,6 @@ export const LIST: List.Game[] = [
     platform: 'GBA'
   },
   {
-    title: 'Advance Wars',
-    platform: 'GBA'
-  },
-  {
     title: 'The Legend of Zelda: The Minish Cap',
     platform: 'GBA'
   },
