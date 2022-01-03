@@ -732,5 +732,6 @@ export const COLLECTION: Collection.Game[] = [
     region: 'None',
     series: ['lego'],
     hasBox: true
-  },
+  }
+
 ];
