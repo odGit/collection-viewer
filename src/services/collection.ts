@@ -638,5 +638,99 @@ export const COLLECTION: Collection.Game[] = [
     platform: 'GBA',
     region: 'USA',
     series: ['Yoshi']
-  }
+  },
+  {
+    title: 'LocoRoco 2',
+    platform: 'PSP',
+    region: 'None',
+    series: ['LocoRoco'],
+    hasBox: true
+  },
+  {
+    title: 'Patapons',
+    platform: 'PSP',
+    region: 'None',
+    series: ['Patapons'],
+    hasBox: true
+  },
+  {
+    title: 'Wipeout Pure',
+    platform: 'PSP',
+    region: 'None',
+    series: ['Wipeout'],
+    hasBox: true
+  },
+  {
+    title: 'Crash of the Titans',
+    platform: 'PSP',
+    region: 'None',
+    hasBox: true
+  },
+  {
+    title: 'Chili con caranage',
+    platform: 'PSP',
+    region: 'None',
+    hasBox: true
+  },
+  {
+    title: 'Ridge Racer',
+    platform: 'PSP',
+    region: 'None',
+    hasBox: true
+  },
+  {
+    title: 'Ratchet & Clank: size matters',
+    platform: 'PSP',
+    region: 'None',
+    series: ['Ratchet & Clank'],
+    hasBox: true
+  },
+  {
+    title: 'Dora the Explorer: Dora Saves the Mermaids',
+    platform: 'Nintendo DS',
+    region: 'None',
+    series: ['Dora the Explorer'],
+    hasBox: true
+  },
+  {
+    title: 'Mario Party DS',
+    platform: 'Nintendo DS',
+    region: 'None',
+    series: ['Super Mario'],
+    hasBox: true
+  },
+  {
+    title: 'Lego Indiana Jones : The Original Adventures',
+    platform: 'Nintendo DS',
+    region: 'None',
+    series: ['Lego', 'Indiana Jones'],
+    hasBox: true
+  },
+  {
+    title: 'Lego Indiana Jones 2: The Adventure Continues',
+    platform: 'Nintendo DS',
+    region: 'None',
+    series: ['Lego', 'Indiana Jones'],
+    hasBox: true
+  },
+  {
+    title: 'Avatar: The Legend of Aang',
+    platform: 'Nintendo DS',
+    region: 'None',
+    series: ['Avatar'],
+    hasBox: true
+  },
+  {
+    title: "Garfield's Nightmare",
+    platform: 'Nintendo DS',
+    region: 'None',
+    hasBox: true
+  },
+  {
+    title: 'Lego harry Potter',
+    platform: 'Nintendo DS',
+    region: 'None',
+    series: ['lego'],
+    hasBox: true
+  },
 ];

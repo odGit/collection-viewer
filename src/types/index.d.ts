@@ -3,7 +3,7 @@
 // add publisher, year published,
 // author, rating, rarity
 // in COLLECTION
-// State: own, would like to have, collectable?
+// State: own, would like to have?
 
 // ts-ignore no-unused-vars
 namespace Collection {
