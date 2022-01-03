@@ -31,6 +31,10 @@ yarn test:e2e
 ```
 yarn lint
 ```
+### Build for production and publish via GitHub pages
+```
+yarn run deploy
+```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
